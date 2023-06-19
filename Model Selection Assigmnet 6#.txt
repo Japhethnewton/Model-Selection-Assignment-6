@@ -1,0 +1,50 @@
+Task 1: Data Preprocessing
+
+Importing the necessary libraries (pandas, numpy, matplotlib.pyplot, seaborn, sklearn)
+Loading the car dataset from a CSV file into a pandas DataFrame
+Inspecting the shape of the dataset
+Expanding the display to show all columns and rows
+Checking information about the dataset (data types, non-null counts)
+Descriptive statistics of the dataset (count, mean, min, max, etc.)
+Checking for missing values (null values)
+Cleaning the dataset by dropping rows that contain bike data
+Capitalizing the first letter of car names
+Resetting the index of the DataFrame
+Checking the new shape and columns of the dataset
+
+
+Task 2: Feature Selection and Engineering
+
+Showing the data correlation using a heatmap
+Drawing a distribution plot for the selling price
+Creating functions for count plots and scatter plots for categorical features
+Calling the functions to plot and analyze Fuel_Type, Seller_Type, Transmission, and Owner
+Creating functions for box plots and scatter plots for numerical features
+Calling the functions to plot and analyze Present_Price and Kms_Driven
+Creating a pair plot to visualize the relationships between all features
+Checking the distribution of categorical data
+Encoding categorical features (Fuel_Type, Seller_Type, Transmission) into numerical values
+
+
+Task 3: Algorithms
+
+Introducing two machine learning algorithms (Gradient Boosting and Random Forest) for car price prediction
+Describing how each algorithm can be beneficial for the car dataset and mentioning the relevant hyperparameters
+
+
+Task 4: Training, Evaluation & Selection
+
+Performing Gradient Boosting regression on the car dataset
+
+Splitting the dataset into training and testing sets
+Creating and fitting a Gradient Boosting model
+Making predictions on the train and test sets
+Calculating evaluation metrics (mean squared error, r-squared, mean absolute error, root mean squared error)
+Visualizing the actual prices vs. predicted prices using scatter plots
+Performing Random Forest regression on the car dataset
+
+Splitting the dataset into training and testing sets
+Creating and training a Random Forest Regression model
+Making predictions on the train and test sets
+Calculating evaluation metrics (mean squared error, r-squared, mean absolute error, root mean squared error)
+Visualizing the actual prices vs. predicted prices using scatter plots
